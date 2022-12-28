@@ -1,0 +1,76 @@
+body {
+    background-color: rgba(238, 234, 234, 0.181);
+}
+/*.btn-wrapper {
+    border: 1px solid black;
+    height: 46px;
+    width: 186px;
+} */
+.btn {
+    display: inline-block;
+    width: 186px;
+    height: 46px;
+
+    border-radius: 23px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: Arial;
+    font-weight: bold;
+    
+    letter-spacing: 1px;
+    line-height: 46px;
+    box-shadow: 0 2px 4px 0 #55555557;
+}
+
+.btn i {
+    width: 46px;    
+    height: 46px;
+
+    /*transform: translateY(-13px);*/
+    border-radius: 23px;
+
+    text-align: center;
+    line-height: 46px;
+    font-size: 26px;
+    box-shadow: 0 2px 4px 0 #55555557;
+}
+
+.btn-download {
+    background-color:#91c53f;
+    color: white;
+}
+
+.btn-download i {
+    background-color: white;
+    color: #91c53f;
+}
+
+.btn-upload {
+    background-color: #ec1b30;
+    color: white;
+}
+
+.btn-upload i {
+    background-color: white;
+    color: #ec1b30;
+}
+
+.btn span {
+    display: inline-block;
+    transform: translateY(-4px);
+    width: 122px;
+    text-align: center;
+    
+}
+
+.btn:hover {
+    background-color: rgba(57, 65, 73, 0.86);
+    color: white;
+}
+
+.btn i:hover {
+    background-color: inherit;
+    color: inherit;
+}
